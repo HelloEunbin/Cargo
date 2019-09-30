@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>Team2</display-name>
+
+	<servlet>
+		<servlet-name>ExampleController</servlet-name>
+		<servlet-class>cargo.example.ExampleController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExampleController</servlet-name>
+		<url-pattern>/ex/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MemberController</servlet-name>
+		<servlet-class>cargo.member.controller.MemberController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MemberController</servlet-name>
+		<url-pattern>/me/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AdminController</servlet-name>
+		<servlet-class>cargo.admin.controller.AdminController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminController</servlet-name>
+		<url-pattern>/ad/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ReserveController</servlet-name>
+		<servlet-class>cargo.reservation.controller.ReserveController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReserveController</servlet-name>
+		<url-pattern>/re/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CommonController</servlet-name>
+		<servlet-class>cargo.common.controller.CommonController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CommonController</servlet-name>
+		<url-pattern>/co/*</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>BoardController</servlet-name>
+		<servlet-class>cargo.board.controller.BoardController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BoardController</servlet-name>
+		<url-pattern>/bo/*</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>MarketController</servlet-name>
+		<servlet-class>cargo.market.controller.MarketController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MarketController</servlet-name>
+		<url-pattern>/mk/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AndroidController</servlet-name>
+		<servlet-class>cargo.android.controller.AndroidController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidController</servlet-name>
+		<url-pattern>/and/*</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>start.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

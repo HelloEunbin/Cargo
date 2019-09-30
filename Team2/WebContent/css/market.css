@@ -1,0 +1,59 @@
+@CHARSET "EUC-KR";
+
+#uppernav{
+ 	background-color: rgba( 0, 200, 83, 0.9);
+ 	padding-top: 0; 
+ 	padding-bottom: 0; 
+	
+}
+.logosm{
+	color: #ffffff;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Nanum Gothic';
+}
+
+.logosm:HOVER{
+	color: #cdcdcd;
+}
+
+.uppernav li a, .uppernav li {
+	font-family: 'Nanum Gothic';
+	color: white !important;
+}
+
+.uppernav li:HOVER{
+	color: #cdcdcd;
+}
+
+.hover:HOVER, .main:HOVER{
+	color: #00c853;
+}
+
+.fontcolor{
+	color: #00c853;
+}
+
+.main{
+	font-weight: 800;
+	color: #000000;
+}
+
+#all{
+	color: black;
+	
+}
+
+#itemTable td{
+   	line-height: 60px;
+   	color: #000000;
+   }
+#itemTable td:NTH-OF-TYPE(3) {
+	font-size: 1.1em;
+	font-family: 'Jeju Gothic' !important;
+	text-align: left;
+}
+#itemTable td img{
+   	max-width : 60px;
+   	max-height: 60px;
+}

@@ -1,0 +1,42 @@
+@CHARSET "EUC-KR";
+
+#section{
+	background-image: url(../img/reservation3.jpg);
+	background-size: cover;
+}
+
+#section_ex{
+	background-image: url(../img/reservation.jpg) !important;
+	background-size: cover;
+}
+
+.background{
+	background-color: rgba( 255, 255, 255, 0.9);
+}
+
+/* reservation_info */
+
+.button{
+ 	width: 5.5em; 
+ 	height: 5.5em;
+	border: 0;
+}
+
+.notEmpty{
+	background-color: #ff3333;
+}
+
+/* reservation_pay, payconfirm */
+
+.table tr>td:not(.confirm){
+	text-align: center;
+}
+
+.red{
+	color: #ff3333;
+}
+
+.confirm{
+	text-align: right;
+}
+	
